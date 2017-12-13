@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Clock</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Inconsolata|Raleway'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container">
+  
+  <div class="clockDiv">
+    <h2 class="title">Pomodoro Clock <span id="logo"><i class="fa fa-free-code-camp" aria-hidden="true"></i></span></h2>
+    
+<!--     Clock Face -->
+    <div class="clock">
+      <span id="minutes">25</span>:<span id="seconds">00</span>
+    </div>
+    
+<!--     Sign for Current State -->
+    <div class="sign">
+      <span id="sign">Ready</span>
+    </div>
+    
+<!--     Start/Reset Buttons -->
+    <div class="buttons">
+      <button id="start">Start</button>
+      <button id="reset">Reset</button>
+    </div>
+  </div>
+
+<!--   Settings Panel -->
+  <div class="settings">
+    <div class="left">
+      <span>Session Length</span>
+      <div>
+        <button id="sesMin"><i class="fa fa-minus" aria-hidden="true"></i></button>
+        <span id="sessionTimer">25</span>
+        <button id="sesPlus"><i class="fa fa-plus" aria-hidden="true"></i></button>
+      </div>
+    </div>
+
+    <div class="right">
+      <span>Break Length</span>
+      <div>
+        <button id="breMin"><i class="fa fa-minus" aria-hidden="true"></i></button>
+        <span id="breakTimer">5</span>
+        <button id="brePlus"><i class="fa fa-plus" aria-hidden="true"></i></button>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+<footer>
+  <div id="author">&copy; Jarrod Yellets | 2017</div>
+</footer>
+  <script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
+<script src='https://use.fontawesome.com/f1ba2b81d2.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
